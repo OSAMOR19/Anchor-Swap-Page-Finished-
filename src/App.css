@@ -321,7 +321,8 @@ nav {
 }
 @media (max-width: 800px) {
   .nav-logo-container {
-    max-width: 140px;
+    max-width: 100px;
+    max-height: 100px;
   }
   .navbar-links-container {
     display: none;

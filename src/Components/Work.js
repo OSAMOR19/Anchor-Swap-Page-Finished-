@@ -1,34 +1,34 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+// import PickMeals from "../Assets/pick-meals-image.png";
+import Bitcoin  from "../Assets/Bitcoin-Logo.png";
+import Litecoin_Logo  from "../Assets/Litecoin_Logo.jpg";
+import ethereum  from "../Assets/ethereum.png";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: ethereum,
+      title: "$ETH",
+      text: "$1,857.26",
     },
     {
-      image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: Bitcoin,
+      title: "BTC",
+      text: "$30,223 ",
     },
     {
-      image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: Litecoin_Logo,
+      title: "Lte",
+      text: "$98.17",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
+        <p className="primary-subheading"></p>
+        <h1 className="primary-heading">Assets</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Trade, stake and farm your crypto assets seamlesly using Anchor swap .
         </p>
       </div>
       <div className="work-section-bottom">

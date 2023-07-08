@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../Assets/Logo.svg";
-import { BsCart2 } from "react-icons/bs";
+import Logo from "../Assets/navbarlogo-removebg-preview.png";
+
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -43,18 +43,20 @@ const Navbar = () => {
   ];
   return (
     <nav>
-      <div className="nav-logo-container">
+      <div className="nav-logo-container width:auto">
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
+        
+        <a href="">Trade</a>
+        <a href="">Stake</a>
+        <a href="">Launch</a>
+        <a href="">NFT</a>
+        {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+        </a> */}
+        
+        <button className="primary-button">Connect Wallet</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
