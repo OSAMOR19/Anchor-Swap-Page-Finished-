@@ -18,7 +18,7 @@ const Work = () => {
     },
     {
       image: Litecoin_Logo,
-      title: "Lte",
+      title: "Ltc",
       text: "$98.17",
     },
   ];

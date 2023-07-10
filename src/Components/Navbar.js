@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../Assets/navbarlogo-removebg-preview.png";
+import Logo from "../Assets/navbarlogo.jpg";
 
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -43,7 +43,7 @@ const Navbar = () => {
   ];
   return (
     <nav>
-      <div className="nav-logo-container width:auto">
+      <div className="nav-logo-container " style={{width:"100px", height:"100px"}}>
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
