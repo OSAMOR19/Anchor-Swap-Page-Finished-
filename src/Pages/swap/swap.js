@@ -23,7 +23,11 @@ const SwapPage = () => {
   };
 
   return (
+
+     
+    
     <div className="swap-page">
+      
       <h1 className="swap-page-title">Anchor Swap</h1>
 
       <div className="swap-inputs">
@@ -31,7 +35,7 @@ const SwapPage = () => {
           <label className="input-label">From</label>
           <div className="token-navigator">
             <select className="token-select" defaultValue="">
-              <option value="" disabled>Select token</option>
+              <option value="" disabled>Wbnb</option>
               {tokenOptions.map((token) => (
                 <option key={token.value} value={token.value}>{token.label}</option>
               ))}
@@ -43,8 +47,8 @@ const SwapPage = () => {
         <div className="input-container">
           <label className="input-label">To</label>
           <div className="token-navigator">
-            <select className="token-select" defaultValue="">
-              <option value="" disabled>Select token</option>
+            <select className="token-select ri-coin" defaultValue="">
+              <option value="" disabled>Eth</option>
               {tokenOptions.map((token) => (
                 <option key={token.value} value={token.value}>{token.label}</option>
               ))}
@@ -75,15 +79,15 @@ const SwapPage = () => {
             ))}
           </select>
         </div>
-        <p className="info-text">Transaction Fee: 0.3%</p>
-      </div>
+        {/* <p className="info-text">Transaction Fee: 0.3%</p> */}
+       </div>
 
-      <div className="swap-disclaimer">
+       <div className="swap-disclaimer">
         <div class="alert alert-success" role="alert">
-          <h4 class="alert-heading"><p className="disclaimer-text">
+          {/* <h4 class="alert-heading"><p className="disclaimer-text">
           By proceeding, you confirm that you understand the risks involved
           and agree to our terms of service.
-        </p></h4>
+        </p></h4> */}
           <p></p>
           <p class="mb-0"></p>
         </div>
