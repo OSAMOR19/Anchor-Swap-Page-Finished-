@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const SwapPage = () => {
   const tokenOptions = [
     { value: "A", label: "Eth" },
-    { value: "B", label: "WBnb" },
+    { value: "B", label: "ANF" },
     { value: "C", label: "Arb" },
     // Add more token options as needed
   ];
@@ -35,7 +35,7 @@ const SwapPage = () => {
           <label className="input-label">From</label>
           <div className="token-navigator">
             <select className="token-select" defaultValue="">
-              <option value="" disabled>Wbnb</option>
+              <option value="" disabled>ANF</option>
               {tokenOptions.map((token) => (
                 <option key={token.value} value={token.value}>{token.label}</option>
               ))}
